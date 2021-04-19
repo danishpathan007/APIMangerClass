@@ -2,10 +2,12 @@
 
 ##Example
 
-func hitAPI() {
-        let url = "YOUR_URL"
-        let parm = ["":""]
-        ApiHelper.shareInstance.hitApi(view: self, parm: parm as [String : Any], url: url, isHeader: true, IsLoaderHidden: false, method: .get) { (json, err) in
+
+     func hitAPI()
+      {
+         let url = "YOUR_URL"
+         let parm = ["":""]
+         ApiHelper.shareInstance.hitApi(view: self, parm: parm as [String : Any], url: url, isHeader: true, IsLoaderHidden: false, method: .get) { (json, err) in
             if err != nil{
                 self.presentAlert(title: "Error", message: "Something went wrong")
             }else{
