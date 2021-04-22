@@ -1,6 +1,6 @@
 # APIMangerClass
 
-##Example
+# Example
 
 
      func hitAPI()
@@ -26,7 +26,7 @@
     }
 
 
-##UPLOAD IMAGE #######
+# UPLOAD IMAGE
 
     func uploadImageAPI(){
         
